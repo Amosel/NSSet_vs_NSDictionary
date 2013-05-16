@@ -19,6 +19,7 @@
 		6C42FBFA174465CF00645BFB /* AEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C42FBF9174465CF00645BFB /* AEViewController.m */; };
 		6C42FBFD174465CF00645BFB /* AEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C42FBFB174465CF00645BFB /* AEViewController_iPhone.xib */; };
 		6C42FC00174465CF00645BFB /* AEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C42FBFE174465CF00645BFB /* AEViewController_iPad.xib */; };
+		6C42FC08174465E700645BFB /* NSSet_vs_NSDictionary_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C42FC07174465E700645BFB /* NSSet_vs_NSDictionary_test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		6C42FBF9174465CF00645BFB /* AEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEViewController.m; sourceTree = "<group>"; };
 		6C42FBFC174465CF00645BFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEViewController_iPhone.xib; sourceTree = "<group>"; };
 		6C42FBFF174465CF00645BFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEViewController_iPad.xib; sourceTree = "<group>"; };
+		6C42FC06174465E700645BFB /* NSSet_vs_NSDictionary_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSet_vs_NSDictionary_test.h; sourceTree = "<group>"; };
+		6C42FC07174465E700645BFB /* NSSet_vs_NSDictionary_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSet_vs_NSDictionary_test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		6C42FBE6174465CF00645BFB /* NSSet_vs_NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				6C42FC06174465E700645BFB /* NSSet_vs_NSDictionary_test.h */,
+				6C42FC07174465E700645BFB /* NSSet_vs_NSDictionary_test.m */,
 				6C42FBEF174465CF00645BFB /* AEAppDelegate.h */,
 				6C42FBF0174465CF00645BFB /* AEAppDelegate.m */,
 				6C42FBF8174465CF00645BFB /* AEViewController.h */,
@@ -181,6 +186,7 @@
 				6C42FBED174465CF00645BFB /* main.m in Sources */,
 				6C42FBF1174465CF00645BFB /* AEAppDelegate.m in Sources */,
 				6C42FBFA174465CF00645BFB /* AEViewController.m in Sources */,
+				6C42FC08174465E700645BFB /* NSSet_vs_NSDictionary_test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

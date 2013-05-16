@@ -9,6 +9,7 @@
 #import "AEAppDelegate.h"
 
 #import "AEViewController.h"
+#import "NSSet_vs_NSDictionary_test.h"
 
 @implementation AEAppDelegate
 
@@ -23,6 +24,10 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    NSSet_vs_NSDictionary_test* test = [[NSSet_vs_NSDictionary_test alloc] init];
+    [test runTest];
+    
     return YES;
 }
 
